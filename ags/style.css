@@ -1,0 +1,261 @@
+
+
+window.bar{
+    color: white;
+    border:1px solid rgba(52, 48, 46, 0.231);
+    background-color: rgba(10, 10, 10, 0.95);
+}
+.day{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Rowdies';
+    font-weight: 500;
+    padding: 0px;
+    background: transparent;
+    color: white;
+    border: none;
+
+}
+.date{
+    color: white;
+    font-size: 1.9rem;
+    font-family: 'Pixelify Sans';
+    font-weight: 100;
+    padding: 0px;
+    margin-left: 0.2em;
+    background: transparent;
+    color: white;
+    border: none;
+
+}
+.clock{
+ background-color: rgba(52, 48, 46, 0.231);
+    padding-left: 1.1em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    margin-top: 6px;
+    margin-left: 0.5em;
+    margin-right: 0.1em;
+    padding-right: 1em;
+    margin-bottom: 7px;
+  }
+.workspaceBTN{
+    background: transparent;
+font-size: 2.5em;
+    padding-top: 0px;
+    margin-left: -12px;
+    font-weight: 100;
+    font-family: "Circle Outline PhotoSupply";
+    color: white;
+    margin-bottom: -0.5em;
+border: none;
+}
+.workspaceBTN:focus{
+    color: aqua;
+}
+.workspace{
+    padding-left: 1.2em;
+    padding-right: 0.3em;
+}
+.WifiIcon{
+    margin-right: 0.65em;
+    font-size: 1.4em;
+}
+.BatteryIcon{
+    margin-right: 0.4em;
+    font-size: 1.2em;
+}
+.percentBattery{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 1em;
+    margin-right: 1.1em;
+
+}
+.audioIcon{
+    margin-right: 0.6em;
+    font-size: 1.3em;
+}
+.BasicInfo{
+    background-color: rgba(52, 48, 46, 0.231);
+    padding-left: 1.1em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+
+    margin-top: 10px;
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+}
+.battery{
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+.icons{
+    font-family: 'Font Awesome 6 Free';
+    font-size:1.2em;
+    margin-right: 0.5em;
+
+}
+.SYS{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 1em;
+    margin-right: 1.2em;
+}
+.AdvancedInfo{
+    background-color: rgba(52, 48, 46, 0.231);
+    padding-left: 1.3em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+
+    margin-top: 10px;
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+}
+.trayIcon{
+    border: none;
+    background:none;
+}
+.tray{
+    background-color: rgba(52, 48, 46, 0.231);
+    padding-left: 0.2em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+
+    margin-top: 10px;
+    margin-right: 0.8em;
+    margin-bottom: 10px;
+}
+
+.ClockLarge{
+    font-size: 6em;
+    font-family: 'Rowdies';
+    color: white;
+    font-weight: 700;
+    min-width: 3.2em;
+        text-shadow: 0 0 4px rgba(255, 255, 255, 0.694);
+}
+.Line{
+    font-size: 4em;
+    margin-top: -1.7em;
+    margin-left: 0.6em;
+    color: #38272D;
+
+}
+.DateLarge{
+    font-size:1.1em;
+    color: white;
+    font-family: 'Rowdies';
+    font-weight: 800;
+    margin-bottom: 3em;
+    margin-top: 0.3em;
+    margin-left: 5.5rem;
+        text-shadow: 0 0 7px #fff;
+
+}
+.WorkspaceWidget{
+    margin-left: 0.7em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-top: 0.7em;
+    padding-bottom: 1.1em;
+    border-radius: 100px;
+    background-color: rgba(52, 48, 46, 0.231);
+}
+.title{
+        background-color: rgba(52, 48, 46, 0.231);
+    padding-left: 1em;
+    border-radius: 1.2em;
+    padding-right: 1.2em;
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 1em;
+    margin-top: 9px;
+    margin-right: 0.8em;
+    margin-bottom: 8px;
+    margin-left: 0.7em;
+    
+}
+.MusicPlayer{
+    background-color: #38272D;
+}
+.PlayPause{
+    background: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: 1em;
+    margin-top: 0px;
+}
+.PlayPause:hover{
+    color: rgba(255, 255, 255, 0.501);
+}
+.PlayerText{
+    font-family: 'Inter';
+    font-size: 1.1em;
+    font-weight: 800;
+    background: transparent;
+    border: none;
+    margin-left: -2px;
+}
+.MiniPlayer{
+    background-color: rgba(52, 48, 46, 0.231);
+    padding-left: 0.5em;
+    padding-right: 1.2em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    margin-top: 10px;
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+}
+.Menu{
+    background-color: rgba(10, 10, 10, 0.95);
+    padding: 1em 1em 1em 1.3em;
+  /* border: 4px solid #41B0DD; */
+    border: 6px solid #3A82E4;
+  border-radius: 30px;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.143);
+}.MainPlayerInfo{
+  margin-right: 2em;
+    min-width: 10em;
+}
+.MainPlayerTitle{
+    font-family:"Inter";
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.MainPlayerArtist{
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: bold;   
+    color: rgba(255, 255, 255, 0.885);
+}
+.prev{
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-right: 10px;
+}
+.pause{
+    background: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: 1.6rem;
+    padding: 0;
+    margin-right: 10px;
+}
+.next{
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0;
+}
