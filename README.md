@@ -5,6 +5,6 @@
 - [Hyprlock](https://github.com/hyprwm/hyprlock)
 - [AGS](https://github.com/Aylur/ags)
 - [Rofi](https://github.com/davatorium/rofi)
-
+- [SwayNC](https://github.com/ErikReider/SwayNotificationCenter)
 
 Thanks to https://github.com/adi1090x/rofi for the Applets :3

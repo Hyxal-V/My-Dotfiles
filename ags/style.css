@@ -44,11 +44,23 @@ window.bar{
     background: transparent;
 font-size: 2.5em;
     padding-top: 0px;
-    margin-left: -12px;
+    margin-left: -8px;
     font-weight: 100;
     font-family: "Circle Outline PhotoSupply";
     color: white;
     margin-bottom: -0.5em;
+border: none;
+}
+.workspaceBTNFocused{
+    background: transparent;
+font-size: 2.9em;
+    padding-top: 0px;
+    margin-left: -10px;
+    margin-right: -2px;
+    font-weight: 100;
+    font-family: "Circle PhotoshopSupply";
+    color: white;
+    margin-bottom: -0.45em;
 border: none;
 }
 .workspaceBTN:focus{
@@ -259,3 +271,21 @@ border: none;
     font-size: 1.5rem;
     padding: 0;
 }
+.NotificationBTN{
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+}
+.Ninfo{
+    background-color: rgba(52, 48, 46, 0.231);
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+   padding-left: 0.4em;
+   padding-right: 0.4em;
+    margin-top: 10px;
+    margin-right: 0.5em;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+

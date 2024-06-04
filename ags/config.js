@@ -1,3 +1,5 @@
+
+
 const hyprland = await Service.import("hyprland")
 const player = await Service.import("mpris")
 const audio = await Service.import("audio")
@@ -6,6 +8,9 @@ const systemtray = await Service.import("systemtray")
 const network = await Service.import('network')
 const time = Variable("", {
     poll: [1000, 'date "+%I:%M %p "'],
+})
+const notificationVal = Variable("",{
+    poll: [3000,'swaync-client -c']
 })
 var date = Variable("", {
     poll: [1000, 'date "+%d %B %A"'],
@@ -60,10 +65,14 @@ const Workspaces = () => Widget.EventBox({
 
         children: Array.from({ length: 9 }, (_, i) => i + 1).map(i => Widget.Button({
             attribute: i,
-            class_name:"workspaceBTN",
-            label: `${i}`,
+        class_name:"workspaceBTN",
+         label: `${i}`,
             onClicked: () => dispatch(i),
-        })),
+            
+        }).hook(hyprland,self=>{
+            self.class_name = i ==hyprland.active.workspace.id ? "workspaceBTNFocused":`workspaceBTN`
+        })
+    ),
 
         // remove this setup hook if you want fixed number of buttons
         setup: self => self.hook(hyprland, () => self.children.forEach(btn => {
@@ -82,6 +91,23 @@ const BasicInfo = () => Widget.Box( {
             class_name:"tray",
             children: systemtray.bind('items').as(i => i.map(SysTrayItem))
         }), 
+        Widget.Box({
+            class_name:"Ninfo",
+         
+            children:[
+                Widget.Button({
+                    onClicked:()=>{
+                     Utils.exec("swaync-client -t")
+                   //    console.log(hyprland.active.workspace.id)
+                    },
+                    class_name:"NotificationBTN",
+                    child:Widget.Label({}).hook(notificationVal,self=>{
+                        self.label = notificationVal.value>0?"":""
+                    })
+                    
+                })
+            ]
+        }),
         Widget.Box({
     class_name:"AdvancedInfo",
     hpack:"end",
@@ -145,6 +171,7 @@ const BasicInfo = () => Widget.Box( {
     ],
 
 }),
+
 ]})
 const Player = () => Widget.Box({
     hpack:"start",
