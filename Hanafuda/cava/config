@@ -1,0 +1,22 @@
+[color]
+background = '#0a090a'
+gradient = 1
+
+gradient_color_1 = '#9d7cc2'
+gradient_color_3 = '#6E6F99'
+gradient_color_4 = '#9070AE'
+gradient_color_5 = '#9D7CC2'
+gradient_color_2 = '#A492B4'
+gradient_color_7 = '#e0dfe1'
+gradient_color_8 = '#9c9c9d'
+
+[general]
+bars = 7
+bar_width = 12
+sensitivity = 80
+bar_spacing=2
+
+[smoothing]
+integral = 80
+waves = 1
+gravity=40
