@@ -29,4 +29,6 @@ Note: Fonts will have to be manually downloaded, Links at the end of page
 - [**Hanafuda** - Heroku](https://www.heroku.com/art/hanafuda)
 - [**Neela** - Edernity](https://wall.alphacoders.com/big.php?i=1358522)
 
+- [**Kadal** - wfdownloader](https://www.reddit.com/r/wallpaper/comments/zavfzl/moonlight_in_cloudy_sky_over_river_and_trees_3840/)
+
 Thanks to https://github.com/adi1090x/rofi for the Rofi Applets
