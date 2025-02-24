@@ -10,6 +10,8 @@
 - **Wallpaper Manager 🖼️**      -   [SwayBG](https://github.com/swaywm/swaybg)
 
 Note: Fonts will have to be manually downloaded, Links at the end of page
+## Kadal - കടൽ
+![Preview.png](Kadal/Kadal.png) ![PreviewLock.png](Kadal/Lock.png)
 
 ## Neela - നീല
 ![Preview.png](Neela/Neela.png)

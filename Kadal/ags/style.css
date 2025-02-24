@@ -1,0 +1,376 @@
+
+
+window.bar{
+    color: #B5B5B5;
+    background-color: #121213;
+}
+.day{
+    color: #B5B5B5;
+    font-size: 1.2rem;
+    font-family: 'Rowdies';
+    font-weight: 500;
+    padding: 0px;
+    background: transparent;
+    color: #B5B5B5;
+    border: none;
+
+}
+.date{
+    color: #B5B5B5;
+    font-size: 1.9rem;
+    font-family: 'Pixelify Sans';
+    font-weight: 100;
+    padding: 0px;
+    margin-left: 0.2em;
+    background: transparent;
+    color: #B5B5B5;
+    border: none;
+
+}
+.clock{
+ background-color: #1E1E1E;
+    padding-left: 1.1em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    margin-top: 6px;
+    margin-left: 0.5em;
+    margin-right: 0.1em;
+    padding-right: 1em;
+    margin-bottom: 7px;
+  }
+.workspaceBTN{
+    background: transparent;
+font-size: 2.5em;
+    padding-bottom: 0.01em;
+  
+    font-weight: 600;
+    font-family: "Circle Outline PhotoSupply";
+    color: #B5B5B5;
+    margin-right: 3px; 
+
+border: none;
+}
+.workspaceBTNFocused{
+font-size: 2.8em;
+    padding-top: 0px;
+    font-weight: 100;
+    margin-right: 2px; 
+    padding-bottom: 0.01em;
+    
+    font-family: "Circle PhotoshopSupply";
+    color: #B5B5B5;
+border: none;
+}
+.workspaceBTN:focus{
+    color: aqua;
+}
+.workspace{
+    padding-left: 1.2em;
+    padding-right: 1em;
+    margin-bottom: -1em;
+    margin-top: 0.3em;
+}
+.WifiIcon{
+    margin-right: 0.65em;
+    font-size: 1.4em;
+}
+.BatteryIcon{
+    margin-right: 0.4em;
+    font-size: 1.2em;
+}
+.percentBattery{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 1em;
+    margin-right: 1.1em;
+
+}
+.audioIcon{
+    margin-right: 0.6em;
+    font-size: 1.3em;
+}
+.BasicInfo{
+    background-color: #1E1E1E;
+    padding-left: 1.1em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+
+    margin-top: 10px;
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+}
+.battery{
+    color: #B5B5B5;
+    background: transparent;
+    border: none;
+}
+
+.icons{
+    font-family: 'Font Awesome 6 Free';
+    font-size:1.2em;
+    margin-right: 0.5em;
+
+}
+.SYS{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 1em;
+    margin-right: 1.2em;
+}
+.AdvancedInfo{
+    background-color: #1E1E1E;
+    padding-left: 1.3em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+
+    margin-top: 10px;
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+}
+.trayIcon{
+    border: none;
+    background:none;
+}
+.tray{
+    background-color: #1E1E1E;
+    padding-left: 0.2em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+
+    margin-top: 10px;
+    margin-right: 0.8em;
+    margin-bottom: 10px;
+}
+
+.ClockLarge{
+    font-size: 6em;
+    font-family: 'Rowdies';
+    color: #B5B5B5;
+    font-weight: 700;
+    min-width: 3.2em;
+        text-shadow: 0 0 4px rgba(255, 255, 255, 0.694);
+}
+.Line{
+    font-size: 4em;
+    margin-top: -1.7em;
+    margin-left: 0.6em;
+    color: #38272D;
+
+}
+.DateLarge{
+    font-size:1.1em;
+    color: #B5B5B5;
+    font-family: 'Rowdies';
+    font-weight: 800;
+    margin-bottom: 3em;
+    margin-top: 0.3em;
+    margin-left: 5.5rem;
+        text-shadow: 0 0 7px #fff;
+
+}
+.WorkspaceWidget{
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    margin-right: 10px;
+    padding-top: 0.2em;
+    padding-bottom: 1em;
+    border-radius: 100px;
+    background-color: #1E1E1E;
+}
+.title{
+        background-color: #1E1E1E;
+    padding-left: 1em;
+    border-radius: 1.2em;
+    padding-right: 1.2em;
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 1em;
+    margin-top: 9px;
+    margin-right: 0.8em;
+    margin-bottom: 8px;
+    margin-left: 0.7em;
+    
+}
+.MusicPlayer{
+    background-color: #1E1E1E;
+}
+.PlayPause{
+    background: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+.PlayPause:hover{
+    color: rgba(255, 255, 255, 0.501);
+}
+.PlayerText{
+    font-family: 'Inter';
+    font-size: 1.1em;
+    font-weight: 800;
+    background: transparent;
+    border: none;
+    margin-left: -2px;
+}
+.MiniPlayer{
+    background-color: #1E1E1E;
+    padding-left: 0.5em;
+    padding-right: 1.2em;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    margin-top: 10px;
+    margin-right: 0.7em;
+    margin-bottom: 10px;
+}
+.Menu{
+    background-color: rgba(10, 10, 10, 0.9);
+    padding: 2em 4em 2em 2em;
+    border-radius: 20px;
+  /* border: 4px solid #41B0DD; */
+    /*border: 6px solid #3A82E4; */
+    color: white;
+  border-radius: 0px;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.143);
+}.MainPlayerInfo{
+  margin-right: 2em;
+    min-width: 10em;
+}
+.MainPlayerTitle{
+    font-family:"Inter";
+    font-size: 1.8rem;
+    font-weight: 900;
+
+}
+.MainPlayerArtist{
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: bold;   
+    color: rgba(255, 255, 255, 0.885);
+}
+.prev{
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    margin-left: 10px;
+    padding: 0;
+    margin-right: 20px;
+}
+.pause{
+    background: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 0;
+    margin-right: 10px;
+}
+.next{
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    padding: 0;
+}
+.NotificationBTN{
+    background: transparent;
+    border: none;
+    margin-right: 2em;
+    font-size: 1rem;
+}
+.Ninfo{
+    background-color: #1E1E1E;
+    border-radius: 2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+   padding-left: 0.4em;
+   padding-right: 0.4em;
+    margin-top: 10px;
+    margin-right: 0.5em;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+#MainPlayer{
+    border-radius: 200px;
+    padding: 200px;
+}
+
+.startMenuBTN{
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 900
+    ;
+}
+
+.GiantClock{
+ background-color: #121213;
+ color: #B5B5B5;
+  padding-right: 2.5em;
+ padding-left: 2.5em;
+ padding-top: 1.2em;
+ padding-bottom: 2em;
+
+ border: #F2E5BC 1em solid;
+ border-radius: 4.5em;
+}
+.GiantTitle{
+    font-family: 'Rowdies';
+    font-size:7em;
+    font-weight: 800;
+    margin-bottom: 0.05em;
+    color: #FFF7DA;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.694);
+
+}
+.GiantSubtitle{
+    font-family: 'Lexend Deca';
+    font-size: 1.5em;
+    color: #FFF7DA;
+    font-weight: 400; 
+    margin-top: 0.5em;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.694);
+
+
+}
+.Star1{
+    font-family: 'Rowdies';
+    font-size: 7em;
+    margin-top: -0.7em;
+    margin-left: 1.8em;
+    margin-bottom:-0.3em;
+    color: #FFF7DA;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.694);
+
+
+}
+.Star2{
+    font-family: 'Rowdies';
+    font-size: 7em;
+    margin-top: -0.7em;
+    margin-right: 1.8em;
+    margin-bottom:-0.3em;
+    color: #FFF7DA;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.694);
+
+
+}
+.StarBottom{
+    font-family: 'Rowdies';
+    font-size: 7em;
+    margin-top: -0.7em;
+    margin-bottom:-0.3em;
+    color: #FFF7DA;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.694);
+
+}
+#GiantClock{
+    background:transparent;
+}
